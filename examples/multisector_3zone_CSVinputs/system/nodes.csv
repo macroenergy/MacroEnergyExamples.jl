@@ -1,7 +1,0 @@
-Type,id,single-price,price--timeseries--path,price--timeseries--header
-NaturalGas,natgas_SE,[11],system/fuel_prices.csv,natgas_SE
-NaturalGas,natgas_MIDAT,[12],system/fuel_prices.csv,natgas_MIDAT
-NaturalGas,natgas_NE,[13],system/fuel_prices.csv,natgas_NE
-Electricity,elec_SE,[1],system/fuel_prices.csv,elec_SE
-Electricity,elec_MIDAT,[2],system/fuel_prices.csv,elec_MIDAT
-Electricity,elec_NE,[3],system/fuel_prices.csv,elec_NE
