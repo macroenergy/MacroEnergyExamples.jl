@@ -2,5 +2,6 @@ using MacroEnergy
 using Gurobi
 
 (system, model) = run_case(@__DIR__; 
-                    optimizer=Gurobi.Optimizer,
-                    optimizer_attributes=("Method" => 2, "Crossover" => 1, "BarConvTol" => 1e-4));
+    optimizer=HiGHS.Optimizer,
+    optimizer_attributes=("solver" => "ipm", "run_crossover" => "off", "ipm_optimality_tolerance" => 1e-3)
+);
