@@ -3,7 +3,10 @@
         {
             "type": "NaturalGas",
             "global_data": {
-                "time_interval": "NaturalGas"
+                "time_interval": "NaturalGas",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -100,7 +103,11 @@
         {
             "type": "CO2",
             "global_data": {
-                "time_interval": "CO2"
+                "time_interval": "CO2",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
+
             },
             "instance_data": [
                 {
@@ -111,15 +118,7 @@
                     "rhs_policy": {
                         "CO2CapConstraint": 2.968e3
                         }
-                }
-            ]
-        },
-        {
-            "type": "CO2",
-            "global_data": {
-                "time_interval": "CO2"
-            },
-            "instance_data": [
+                },
                 {
                     "id": "co2_sink",
                     "constraints": {
@@ -134,7 +133,10 @@
         {
             "type": "CO2Captured",
             "global_data": {
-                "time_interval": "CO2Captured"
+                "time_interval": "CO2Captured",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
