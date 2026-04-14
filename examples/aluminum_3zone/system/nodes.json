@@ -3,7 +3,10 @@
         {
             "type": "NaturalGas",
             "global_data": {
-                "time_interval": "NaturalGas"
+                "time_interval": "NaturalGas",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -103,7 +106,11 @@
         {
             "type": "CO2",
             "global_data": {
-                "time_interval": "CO2"
+                "time_interval": "CO2",
+                "constraints": {
+                    "CO2CapConstraint": false,
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -120,7 +127,10 @@
         {
             "type": "CO2Captured",
             "global_data": {
-                "time_interval": "CO2Captured"
+                "time_interval": "CO2Captured",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -139,30 +149,30 @@
             "instance_data": [
                 {
                     "id": "aluminumscrap_source_MA",
-                    "max_supply": [
-                        100
-                    ],
-                    "price_supply": [
-                        220
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 220,
+                            "max": 100
+                        }
+                    }
                 },
                 {
                     "id": "aluminumscrap_source_CT",
-                    "max_supply": [
-                        0
-                    ],
-                    "price_supply": [
-                        220
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 220,
+                            "max": 0
+                        }
+                    }
                 },
                 {
                     "id": "aluminumscrap_source_ME",
-                    "max_supply": [
-                        0
-                    ],
-                    "price_supply": [
-                        220
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 220,
+                            "max": 0
+                        }
+                    }
                 }
             ]
         },
@@ -177,30 +187,27 @@
             "instance_data": [
                 {
                     "id": "bauxite_source_MA",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        90
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 90
+                        }
+                    }
                 },
                 {
                     "id": "bauxite_source_CT",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        90
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 90
+                        }
+                    }
                 },
                 {
                     "id": "bauxite_source_ME",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        90
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 90
+                        }
+                    }
                 }
             ]
         },
@@ -215,30 +222,27 @@
             "instance_data": [
                 {
                     "id": "graphite_source_MA",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        800
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 800
+                        }
+                    }
                 },
                 {
                     "id": "graphite_source_CT",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        800
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 800
+                        }
+                    }
                 },
                 {
                     "id": "graphite_source_ME",
-                    "max_supply": [
-                        100000
-                    ],
-                    "price_supply": [
-                        800
-                    ]
+                    "supply": {
+                        "segment1": {
+                            "price": 800
+                        }
+                    }
                 }
             ]
         }
