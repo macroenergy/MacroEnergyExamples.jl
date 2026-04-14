@@ -1,8 +1,9 @@
 using MacroEnergy
-using Gurobi
+using HiGHS
 
-(system, results) = run_case(@__DIR__;
-    planning_optimizer=Gurobi.Optimizer,
-    subproblem_optimizer=Gurobi.Optimizer,
-    planning_optimizer_attributes=("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-4),
-    subproblem_optimizer_attributes=("Method" => 2, "Crossover" => 1, "BarConvTol" => 1e-4));
+(system, model) = run_case(@__DIR__;
+    planning_optimizer=HiGHS.Optimizer,
+    subproblem_optimizer=HiGHS.Optimizer,
+    planning_optimizer_attributes=("solver" => "ipm", "run_crossover" => "off", "ipm_optimality_tolerance" => 1e-3),
+    subproblem_optimizer_attributes=("solver" => "ipm", "run_crossover" => "on", "ipm_optimality_tolerance" => 1e-3)
+);
