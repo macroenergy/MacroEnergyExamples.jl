@@ -9,10 +9,14 @@
                 {
                     "id": "natgas_NE",
                     "location": "NE",
-                    "price": {
-                        "timeseries": {
-                            "path": "system/fuel_prices.csv",
-                            "header": "natgas_NE"
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "natgas_NE"
+                                }
+                            }
                         }
                     }
                 }
@@ -46,7 +50,10 @@
         {
             "type": "CO2",
             "global_data": {
-                "time_interval": "CO2"
+                "time_interval": "CO2",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
