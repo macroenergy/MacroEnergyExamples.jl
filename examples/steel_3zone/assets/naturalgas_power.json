@@ -303,7 +303,7 @@
                     "id": "NE_natural_gas_fired_combined_cycle_4",
                     "transforms":{
                         "emission_rate": 0.181048235160161,
-                        "fuel_consumption": 0
+                        "fuel_consumption": 5.826545943
                     },
                     "edges":{
                         "elec_edge": {
