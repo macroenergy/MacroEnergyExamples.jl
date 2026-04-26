@@ -1,5 +1,5 @@
 using MacroEnergy
-using Gurobi
+using HiGHS
 
 (system, model) = run_case(@__DIR__; 
     optimizer=HiGHS.Optimizer,
