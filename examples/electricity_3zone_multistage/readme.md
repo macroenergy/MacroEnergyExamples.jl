@@ -4,7 +4,9 @@ This is a simple example of a three-planning period, three-zone model with elect
 
 ## Benchmark results
 
-Objective value: 1.4476090394876718e11
+Objective value: [9.068413148257817e10, 2.5660816910247723e10, 2.8407713642293972e10]
+Gap at solution: 0.0009
+MacroEnergy version: 0.1.0
 Solution algorithm: Benders
 Solver: Gurobi
 Solver version: 13.0.0

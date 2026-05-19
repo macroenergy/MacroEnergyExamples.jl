@@ -4,7 +4,8 @@ This is a simple example of a three-zone model with electricity-only generation 
 
 ## Benchmark results
 
-Objective value: 4.647563505e+11
+Objective value: 8.924761603e+09
+MacroEnergy version: 0.1.0
 Solution algorithm: Monolithic
 Solver: Gurobi
 Solver version: 13.0.0
