@@ -1,0 +1,39 @@
+name: Tag example snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - release-0.1
+    paths:
+      - Project.toml
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1'
+
+      - name: Create tag from Project.toml version
+        run: |
+          version=$(julia -e 'using TOML; print(TOML.parsefile("Project.toml")["version"])')
+          tag="v${version}"
+
+          if git rev-parse "$tag" >/dev/null 2>&1; then
+            echo "Tag $tag already exists"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$tag" -m "MacroEnergyExamples $tag"
+          git push origin "$tag"
