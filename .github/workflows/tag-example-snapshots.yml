@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - release-0.2
       - release-0.1
     paths:
       - Project.toml
