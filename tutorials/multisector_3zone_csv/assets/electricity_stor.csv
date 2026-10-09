@@ -1,0 +1,7 @@
+Type,id,discharge_can_retire,storage_constraints--StorageMinDurationConstraint,storage_constraints--StorageCapacityConstraint,storage_constraints--StorageMaxDurationConstraint,storage_constraints--StorageSymmetricCapacityConstraint,storage_constraints--BalanceConstraint,discharge_constraints--StorageDischargeLimitConstraint,discharge_constraints--CapacityConstraint,storage_can_retire,storage_can_expand,location,storage_max_duration,discharge_annualized_investment_cost,discharge_efficiency,storage_fixed_om_cost,discharge_fixed_om_cost,storage_annualized_investment_cost,discharge_variable_om_cost,charge_efficiency,storage_min_duration,charge_variable_om_cost,storage_existing_capacity,discharge_min_flow_fraction,discharge_existing_capacity,discharge_can_expand,discharge_capacity_size
+Battery,battery_SE,false,true,true,true,true,true,true,true,false,,SE,10,26886.40679,0.92,4477.587766,7075.764437,17013.88552,1,0.92,1,1,,,,,
+Battery,battery_MIDAT,false,true,true,true,true,true,true,true,false,,MIDAT,10,26406.76299,0.92,4477.587766,7075.764437,16710.36394,1,0.92,1,1,,,,,
+Battery,battery_NE,false,true,true,true,true,true,true,true,false,,NE,10,26889.92066,0.92,4477.587766,7075.764437,17016.10912,1,0.92,1,1,,,,,
+Battery,pumpedhydro_SE,false,,,,,,,,false,false,SE,,,0.866,,39399.0,,,0.866,,,97060.752,0.653,6261.984,false,184.176
+Battery,pumpedhydro_MIDAT,false,,,,,,,,false,false,MIDAT,,,0.866,,39399.0,,,0.866,,,81282,0.433,5244.0,false,228.0
+Battery,pumpedhydro_NE,false,,,,,,,,false,false,NE,,,0.866,,39399.0,,,0.866,,,49706.95,0.307,3206.9,false,128.276

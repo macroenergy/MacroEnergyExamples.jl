@@ -1,0 +1,7 @@
+Type,id,fixed_om_cost,capture_rate,electricity_production,capacity_size,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,min_flow_fraction,co2_content,biomass_constraints--MinFlowConstraint,location,biomass_commodity,availability--timeseries--path,availability--timeseries--header
+BECCSElectricity,SE_BECCS_Electricity_Herb,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,SE,Biomass_Herb,system/availability.csv,SE_BECCS_Electricity_Herb
+BECCSElectricity,MIDAT_BECCS_Electricity_Herb,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,MIDAT,Biomass_Herb,system/availability.csv,MIDAT_BECCS_Electricity_Herb
+BECCSElectricity,NE_BECCS_Electricity_Herb,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,NE,Biomass_Herb,system/availability.csv,NE_BECCS_Electricity_Herb
+BECCSElectricity,SE_BECCS_Electricity_Wood,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,SE,Biomass_Wood,system/availability.csv,SE_BECCS_Electricity_Wood
+BECCSElectricity,MIDAT_BECCS_Electricity_Wood,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,MIDAT,Biomass_Wood,system/availability.csv,MIDAT_BECCS_Electricity_Wood
+BECCSElectricity,NE_BECCS_Electricity_Wood,212409.12,1.600244,1.606568331,400,co2_sink,0.116756,47.2,765260.16,0.4,1.717,true,NE,Biomass_Wood,system/availability.csv,NE_BECCS_Electricity_Wood

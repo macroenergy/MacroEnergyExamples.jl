@@ -1,0 +1,4 @@
+Type,id,co2_sink,emission_rate,fuel_demand_commodity,timedata,fuel_commodity,location,fuel_demand_end_vertex
+FuelsEndUse,SE_NG_End_Use,co2_sink,0.181048235160161,NaturalGas,NaturalGas,NaturalGas,SE,natgas_demand_SE
+FuelsEndUse,MIDAT_NG_End_Use,co2_sink,0.181048235160161,NaturalGas,NaturalGas,NaturalGas,MIDAT,natgas_demand_MIDAT
+FuelsEndUse,NE_NG_End_Use,co2_sink,0.181048235160161,NaturalGas,NaturalGas,NaturalGas,NE,natgas_demand_NE

@@ -1,0 +1,4 @@
+Type,id,co2_sink,variable_om_cost,fixed_om_cost,co2_constraints--RampingLimitConstraint,annualized_investment_cost,ramp_up_fraction,electricity_consumption,ramp_down_fraction,location,availability--timeseries--path,availability--timeseries--header
+ElectricDAC,SE_Sorbent_DAC,co2_sink,24.64,837000,true,1050000,1,4.38,1,SE,system/availability.csv,SE_Sorbent_DAC
+ElectricDAC,MIDAT_Sorbent_DAC,co2_sink,24.64,837000,true,1050000,1,4.38,1,MIDAT,system/availability.csv,MIDAT_Sorbent_DAC
+ElectricDAC,NE_Sorbent_DAC,co2_sink,24.64,837000,true,1050000,1,4.38,1,NE,system/availability.csv,NE_Sorbent_DAC

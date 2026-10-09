@@ -1,0 +1,13 @@
+Type,id,fixed_om_cost,capture_rate,electricity_consumption,natgas_production,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,min_flow_fraction,co2_content,biomass_constraints--MinFlowConstraint,location,biomass_commodity,availability--timeseries--path,availability--timeseries--header
+BECCSNaturalGas,SE_Bio_NaturalGas_Herb,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,SE,Biomass_Herb,system/availability.csv,SE_Bio_NaturalGas_Herb
+BECCSNaturalGas,MIDAT_Bio_NaturalGas_Herb,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,MIDAT,Biomass_Herb,system/availability.csv,MIDAT_Bio_NaturalGas_Herb
+BECCSNaturalGas,NE_Bio_NaturalGas_Herb,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,NE,Biomass_Herb,system/availability.csv,NE_Bio_NaturalGas_Herb
+BECCSNaturalGas,SE_Bio_NaturalGas_Wood,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,SE,Biomass_Wood,system/availability.csv,SE_Bio_NaturalGas_Wood
+BECCSNaturalGas,MIDAT_Bio_NaturalGas_Wood,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,MIDAT,Biomass_Wood,system/availability.csv,MIDAT_Bio_NaturalGas_Wood
+BECCSNaturalGas,NE_Bio_NaturalGas_Wood,500251,0.0,0.208,2.75229,co2_sink,1.2187,9.04,867993,0.85,1.717,true,NE,Biomass_Wood,system/availability.csv,NE_Bio_NaturalGas_Wood
+BECCSNaturalGas,SE_BECCS_NaturalGas_Herb,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,SE,Biomass_Herb,system/availability.csv,SE_BECCS_NaturalGas_Herb
+BECCSNaturalGas,MIDAT_BECCS_NaturalGas_Herb,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,MIDAT,Biomass_Herb,system/availability.csv,MIDAT_BECCS_NaturalGas_Herb
+BECCSNaturalGas,NE_BECCS_NaturalGas_Herb,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,NE,Biomass_Herb,system/availability.csv,NE_BECCS_NaturalGas_Herb
+BECCSNaturalGas,SE_BECCS_NaturalGas_Wood,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,SE,Biomass_Wood,system/availability.csv,SE_BECCS_NaturalGas_Wood
+BECCSNaturalGas,MIDAT_BECCS_NaturalGas_Wood,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,MIDAT,Biomass_Wood,system/availability.csv,MIDAT_BECCS_NaturalGas_Wood
+BECCSNaturalGas,NE_BECCS_NaturalGas_Wood,586131,0.48304,0.253,2.73095,co2_sink,0.73953,9.76,1015075,0.85,1.717,true,NE,Biomass_Wood,system/availability.csv,NE_BECCS_NaturalGas_Wood

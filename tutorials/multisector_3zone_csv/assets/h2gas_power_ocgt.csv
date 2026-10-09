@@ -1,0 +1,4 @@
+Type,id,timedata,fuel_consumption,fixed_om_cost,fuel_commodity,capacity_size,ramp_down_fraction,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,ramp_up_fraction,min_flow_fraction,uc,elec_constraints--MinFlowConstraint,elec_constraints--CapacityConstraint,elec_constraints--RampingLimitConstraint,startup_cost,location,availability--timeseries--path,availability--timeseries--header
+ThermalPower,SE_OCGT-H2,Hydrogen,2.2049258042466873,22800,Hydrogen,237,1,co2_sink,0,6.94,55761.94,1,0.25,true,true,true,true,140,SE,system/availability.csv,SE_OCGT-H2
+ThermalPower,MIDAT_OCGT-H2,Hydrogen,2.2049258042466873,22800,Hydrogen,237,1,co2_sink,0,6.94,55761.94,1,0.25,true,true,true,true,140,MIDAT,system/availability.csv,MIDAT_OCGT-H2
+ThermalPower,NE_OCGT-H2,Hydrogen,2.2049258042466873,22800,Hydrogen,237,1,co2_sink,0,6.94,55761.94,1,0.25,true,true,true,true,140,NE,system/availability.csv,NE_OCGT-H2

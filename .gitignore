@@ -23,3 +23,6 @@ docs/site/
 # environment.
 Manifest.toml
 .DS_Store
+
+# Working copies and results written by tutorial_3_macro_showcase.ipynb
+tutorials/runs/

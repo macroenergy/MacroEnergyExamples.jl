@@ -1,0 +1,955 @@
+{
+    "nodes": [
+        {
+            "type": "Fossil_NaturalGas",
+            "global_data": {
+                "time_interval": "NaturalGas"
+            },
+            "instance_data": [
+                {
+                    "id": "natgas_fossil_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "natgas_fossil_SE"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "natgas_fossil_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "natgas_fossil_MIDAT"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "natgas_fossil_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "natgas_fossil_NE"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "NaturalGas",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "NaturalGas"
+            },
+            "instance_data": [
+                {
+                    "id": "natgas_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": 12.55668122
+                        }
+                    }
+                },
+                {
+                    "id": "natgas_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": 12.21546705
+                        }
+                    }
+                },
+                {
+                    "id": "natgas_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": 15.01342319
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "NaturalGas",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "NaturalGas"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_NG_z1"
+                        }
+                    },
+                    "id": "natgas_demand_SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_NG_z2"
+                        }
+                    },
+                    "id": "natgas_demand_MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_NG_z3"
+                        }
+                    },
+                    "id": "natgas_demand_NE"
+                }
+            ]
+        },
+        {
+            "type": "Uranium",
+            "global_data": {
+                "time_interval": "Uranium"
+            },
+            "instance_data": [
+                {
+                    "id": "uranium_source",
+                    "supply": {
+                        "segment1": {
+                            "price": 2.490863394
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Biomass_Wood",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "Biomass"
+            },
+            "instance_data": [
+                {
+                    "id": "biowood_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment5": {
+                            "price": 86.55,
+                            "max": 4511.23
+                        },
+                        "segment4": {
+                            "price": 86.42,
+                            "max": 3370.4
+                        },
+                        "segment1": {
+                            "price": 49.38,
+                            "max": 820.85
+                        },
+                        "segment3": {
+                            "price": 66.66,
+                            "max": 1255.77
+                        },
+                        "segment2": {
+                            "price": 61.73,
+                            "max": 1202.51
+                        }
+                    }
+                },
+                {
+                    "id": "biowood_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment5": {
+                            "price": 86.55,
+                            "max": 3010.19
+                        },
+                        "segment4": {
+                            "price": 86.42,
+                            "max": 2236.41
+                        },
+                        "segment1": {
+                            "price": 49.38,
+                            "max": 199.74
+                        },
+                        "segment3": {
+                            "price": 66.66,
+                            "max": 337.74
+                        },
+                        "segment2": {
+                            "price": 61.73,
+                            "max": 326.74
+                        }
+                    }
+                },
+                {
+                    "id": "biowood_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment5": {
+                            "price": 86.55,
+                            "max": 1088.03
+                        },
+                        "segment4": {
+                            "price": 86.42,
+                            "max": 406.3
+                        },
+                        "segment1": {
+                            "price": 49.38,
+                            "max": 106.89
+                        },
+                        "segment3": {
+                            "price": 66.66,
+                            "max": 152.38
+                        },
+                        "segment2": {
+                            "price": 61.73,
+                            "max": 152.14
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Biomass_Herb",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "Biomass"
+            },
+            "instance_data": [
+                {
+                    "id": "bioherb_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": 86.4192,
+                            "max": 7963.12
+                        }
+                    }
+                },
+                {
+                    "id": "bioherb_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": 86.4192,
+                            "max": 1364.89
+                        }
+                    }
+                },
+                {
+                    "id": "bioherb_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": 86.4192,
+                            "max": 297.76
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Electricity",
+            "global_data": {
+                "constraints": {
+                    "MaxNonServedDemandPerSegmentConstraint": true,
+                    "MaxNonServedDemandConstraint": true
+                },
+                "max_nsd": [
+                    1
+                ],
+                "price_nsd": [
+                    5000
+                ],
+                "time_interval": "Electricity"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_MW_z1"
+                        }
+                    },
+                    "id": "elec_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_MW_z2"
+                        }
+                    },
+                    "id": "elec_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_MW_z3"
+                        }
+                    },
+                    "id": "elec_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "Hydrogen",
+            "global_data": {
+                "constraints": {
+                    "MaxNonServedDemandPerSegmentConstraint": true,
+                    "BalanceConstraint": true,
+                    "MaxNonServedDemandConstraint": true
+                },
+                "max_nsd": [
+                    1
+                ],
+                "price_nsd": [
+                    5000
+                ],
+                "time_interval": "Hydrogen"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_H2_z1"
+                        }
+                    },
+                    "id": "h2_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_H2_z2"
+                        }
+                    },
+                    "id": "h2_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_H2_z3"
+                        }
+                    },
+                    "id": "h2_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "CO2",
+            "global_data": {
+                "time_interval": "CO2"
+            },
+            "instance_data": [
+                {
+                    "constraints": {
+                        "BalanceConstraint": false,
+                        "CO2CapConstraint": true
+                    },
+                    "id": "co2_sink",
+                    "rhs_policy": {
+                        "CO2CapConstraint": 0
+                    },
+                    "price_unmet_policy": {
+                        "CO2CapConstraint": 1000
+                    }
+                }
+            ]
+        },
+        {
+            "type": "CO2Captured",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "CO2Captured"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "co2_captured_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "co2_captured_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "co2_captured_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "CO2Captured",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": false
+                },
+                "time_interval": "CO2Captured"
+            },
+            "instance_data": [
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_1",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 4753600
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_2",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 5145400
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_3",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 3040100
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_4",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 3525200
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_5",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 2154100
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_6",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 13171700
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_7",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 3572700
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_8",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 1774500
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_9",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 775500
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_10",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 2289900
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_SE_11",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 224800
+                    }
+                },
+                {
+                    "constraints": {
+                        "CO2StorageConstraint": true
+                    },
+                    "id": "co2_storage_MIDAT",
+                    "rhs_policy": {
+                        "CO2StorageConstraint": 336600
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Electricity",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": false
+                },
+                "time_interval": "Electricity"
+            },
+            "instance_data": [
+                {
+                    "id": "hydro_source"
+                }
+            ]
+        },
+        {
+            "type": "Fossil_Gasoline",
+            "global_data": {
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "id": "gasoline_fossil_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "gasoline_fossil_SE"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_fossil_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "gasoline_fossil_MIDAT"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "gasoline_fossil_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "gasoline_fossil_NE"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Gasoline",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "gasoline_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "gasoline_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "gasoline_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "Gasoline",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Gasoline_z1"
+                        }
+                    },
+                    "id": "gasoline_demand_SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Gasoline_z2"
+                        }
+                    },
+                    "id": "gasoline_demand_MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Gasoline_z3"
+                        }
+                    },
+                    "id": "gasoline_demand_NE"
+                }
+            ]
+        },
+        {
+            "type": "Fossil_JetFuel",
+            "global_data": {
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "id": "jetfuel_fossil_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "jetfuel_fossil_SE"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "jetfuel_fossil_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "jetfuel_fossil_MIDAT"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "jetfuel_fossil_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "jetfuel_fossil_NE"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "JetFuel",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "jetfuel_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "jetfuel_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "jetfuel_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "JetFuel",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_JetFuel_z1"
+                        }
+                    },
+                    "id": "jetfuel_demand_SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_JetFuel_z2"
+                        }
+                    },
+                    "id": "jetfuel_demand_MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_JetFuel_z3"
+                        }
+                    },
+                    "id": "jetfuel_demand_NE"
+                }
+            ]
+        },
+        {
+            "type": "Fossil_Diesel",
+            "global_data": {
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "id": "diesel_fossil_SE",
+                    "location": "SE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "diesel_fossil_SE"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "diesel_fossil_MIDAT",
+                    "location": "MIDAT",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "diesel_fossil_MIDAT"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "diesel_fossil_NE",
+                    "location": "NE",
+                    "supply": {
+                        "segment1": {
+                            "price": {
+                                "timeseries": {
+                                    "path": "system/fuel_prices.csv",
+                                    "header": "diesel_fossil_NE"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Diesel",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "diesel_SE",
+                    "location": "SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "diesel_MIDAT",
+                    "location": "MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Zero"
+                        }
+                    },
+                    "id": "diesel_NE",
+                    "location": "NE"
+                }
+            ]
+        },
+        {
+            "type": "Diesel",
+            "global_data": {
+                "constraints": {
+                    "BalanceConstraint": true
+                },
+                "time_interval": "LiquidFuels"
+            },
+            "instance_data": [
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Diesel_z1"
+                        }
+                    },
+                    "id": "diesel_demand_SE"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Diesel_z2"
+                        }
+                    },
+                    "id": "diesel_demand_MIDAT"
+                },
+                {
+                    "demand": {
+                        "timeseries": {
+                            "path": "system/demand fuel.csv",
+                            "header": "Demand_Diesel_z3"
+                        }
+                    },
+                    "id": "diesel_demand_NE"
+                }
+            ]
+        }
+    ]
+}
