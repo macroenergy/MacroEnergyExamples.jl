@@ -1,0 +1,4 @@
+Type,id,h2_constraints--MinFlowConstraint,h2_constraints--CapacityConstraint,h2_constraints--RampingLimitConstraint,fixed_om_cost,variable_om_cost,efficiency_rate,annualized_investment_cost,ramp_up_fraction,min_flow_fraction,capacity_size,ramp_down_fraction,location
+Electrolyzer,SE_Electrolyzer,true,true,true,1174.680271,0,0.87455595,41139.12592,1,0.1,1.5756,1,SE
+Electrolyzer,MIDAT_Electrolyzer,true,true,true,1174.680271,0,0.87455595,41139.12592,1,0.1,1.5756,1,MIDAT
+Electrolyzer,NE_Electrolyzer,true,true,true,1174.680271,0,0.87455595,41139.12592,1,0.1,1.5756,1,NE

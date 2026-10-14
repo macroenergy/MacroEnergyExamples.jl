@@ -1,0 +1,10 @@
+Type,id,co2_sink,location,emission_rate,fuel_demand_end_vertex,fuel_commodity
+FuelsEndUse,SE_Gasoline_Use,co2_sink,SE,0.241238471,gasoline_demand_SE,Gasoline
+FuelsEndUse,MIDAT_Gasoline_Use,co2_sink,MIDAT,0.241238471,gasoline_demand_MIDAT,Gasoline
+FuelsEndUse,NE_Gasoline_Use,co2_sink,NE,0.241238471,gasoline_demand_NE,Gasoline
+FuelsEndUse,SE_JetFuel_Use,co2_sink,SE,0.246356685,jetfuel_demand_SE,JetFuel
+FuelsEndUse,MIDAT_JetFuel_Use,co2_sink,MIDAT,0.246356685,jetfuel_demand_MIDAT,JetFuel
+FuelsEndUse,NE_JetFuel_Use,co2_sink,NE,0.246356685,jetfuel_demand_NE,JetFuel
+FuelsEndUse,SE_Diesel_Use,co2_sink,SE,0.252839756,diesel_demand_SE,Diesel
+FuelsEndUse,MIDAT_Diesel_Use,co2_sink,MIDAT,0.252839756,diesel_demand_MIDAT,Diesel
+FuelsEndUse,NE_Diesel_Use,co2_sink,NE,0.252839756,diesel_demand_NE,Diesel

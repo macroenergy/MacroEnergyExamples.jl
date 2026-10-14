@@ -1,0 +1,4 @@
+Type,id,co2_sink,h2_consumption,emission_rate,co2_captured_constraints--MinFlowConstraint,fixed_om_cost,variable_om_cost,annualized_investment_cost,min_flow_fraction,electricity_consumption,natgas_production,location,availability--timeseries--path,availability--timeseries--header
+SyntheticNaturalGas,SE_Synthetic_NaturalGas,co2_sink,7.16898,0.044548717,true,0,0,91214,0.85,0.291,5.27733,SE,system/availability.csv,SE_Synthetic_NaturalGas
+SyntheticNaturalGas,MIDAT_Synthetic_NaturalGas,co2_sink,7.16898,0.044548717,true,0,0,91214,0.85,0.291,5.27733,MIDAT,system/availability.csv,MIDAT_Synthetic_NaturalGas
+SyntheticNaturalGas,NE_Synthetic_NaturalGas,co2_sink,7.16898,0.044548717,true,0,0,91214,0.85,0.291,5.27733,NE,system/availability.csv,NE_Synthetic_NaturalGas

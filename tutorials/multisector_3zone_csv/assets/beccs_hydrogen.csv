@@ -1,0 +1,7 @@
+Type,id,fixed_om_cost,hydrogen_production,capture_rate,electricity_consumption,capacity_size,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,min_flow_fraction,co2_content,biomass_constraints--MinFlowConstraint,location,biomass_commodity,availability--timeseries--path,availability--timeseries--header
+BECCSHydrogen,SE_BECCS_H2_Herb,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,SE,Biomass_Herb,system/availability.csv,SE_BECCS_H2_Herb
+BECCSHydrogen,MIDAT_BECCS_H2_Herb,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,MIDAT,Biomass_Herb,system/availability.csv,MIDAT_BECCS_H2_Herb
+BECCSHydrogen,NE_BECCS_H2_Herb,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,NE,Biomass_Herb,system/availability.csv,NE_BECCS_H2_Herb
+BECCSHydrogen,SE_BECCS_H2_Wood,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,SE,Biomass_Wood,system/availability.csv,SE_BECCS_H2_Wood
+BECCSHydrogen,MIDAT_BECCS_H2_Wood,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,MIDAT,Biomass_Wood,system/availability.csv,MIDAT_BECCS_H2_Wood
+BECCSHydrogen,NE_BECCS_H2_Wood,66030,2.996580638,1.464601,0.0834,400,co2_sink,0.252399,42.26,585304,0.85,1.717,true,NE,Biomass_Wood,system/availability.csv,NE_BECCS_H2_Wood

@@ -1,0 +1,13 @@
+Type,id,timedata,variable_om_cost,co2_storage,existing_capacity,co2_source
+CO2Injection,SE_CO2_Injection_1,CO2Captured,6.1,co2_storage_SE_1,19634.7,co2_captured_SE
+CO2Injection,SE_CO2_Injection_2,CO2Captured,6.4,co2_storage_SE_2,21367.2,co2_captured_SE
+CO2Injection,SE_CO2_Injection_3,CO2Captured,6.6,co2_storage_SE_3,12704.8,co2_captured_SE
+CO2Injection,SE_CO2_Injection_4,CO2Captured,7.4,co2_storage_SE_4,14437.3,co2_captured_SE
+CO2Injection,SE_CO2_Injection_5,CO2Captured,7.6,co2_storage_SE_5,8662.4,co2_captured_SE
+CO2Injection,SE_CO2_Injection_6,CO2Captured,7.8,co2_storage_SE_6,55439.2,co2_captured_SE
+CO2Injection,SE_CO2_Injection_7,CO2Captured,8.0,co2_storage_SE_7,15014.8,co2_captured_SE
+CO2Injection,SE_CO2_Injection_8,CO2Captured,9.1,co2_storage_SE_8,6929.9,co2_captured_SE
+CO2Injection,SE_CO2_Injection_9,CO2Captured,9.4,co2_storage_SE_9,2887.5,co2_captured_SE
+CO2Injection,SE_CO2_Injection_10,CO2Captured,9.8,co2_storage_SE_10,9239.9,co2_captured_SE
+CO2Injection,SE_CO2_Injection_11,CO2Captured,18.9,co2_storage_SE_11,577.5,co2_captured_SE
+CO2Injection,MIDAT_CO2_Injection,CO2Captured,7.9,co2_storage_MIDAT,1155.0,co2_captured_MIDAT

@@ -1,0 +1,4 @@
+Type,id,can_retire,fixed_om_cost,can_expand,location,existing_capacity,availability--timeseries--path,availability--timeseries--header,capacity_size
+MustRun,SE_small_hydroelectric_1,false,45648,false,SE,249.895,system/availability.csv,SE_small_hydroelectric_1,1.219
+MustRun,MIDAT_small_hydroelectric_1,false,45648,false,MIDAT,263.268,system/availability.csv,MIDAT_small_hydroelectric_1,1.236
+MustRun,NE_small_hydroelectric_1,false,45648,false,NE,834.494,system/availability.csv,NE_small_hydroelectric_1,1.051

@@ -1,0 +1,10 @@
+Type,id,co2_sink,emission_rate,location,fuel_commodity,fossil_fuel_commodity
+FossilFuelsUpstream,SE_Gasoline_Fossil_Upstream,co2_sink,0,SE,Gasoline,Fossil_Gasoline
+FossilFuelsUpstream,MIDAT_Gasoline_Fossil_Upstream,co2_sink,0,MIDAT,Gasoline,Fossil_Gasoline
+FossilFuelsUpstream,NE_Gasoline_Fossil_Upstream,co2_sink,0,NE,Gasoline,Fossil_Gasoline
+FossilFuelsUpstream,SE_JetFuel_Fossil_Upstream,co2_sink,0,SE,JetFuel,Fossil_JetFuel
+FossilFuelsUpstream,MIDAT_JetFuel_Fossil_Upstream,co2_sink,0,MIDAT,JetFuel,Fossil_JetFuel
+FossilFuelsUpstream,NE_JetFuel_Fossil_Upstream,co2_sink,0,NE,JetFuel,Fossil_JetFuel
+FossilFuelsUpstream,SE_Diesel_Fossil_Upstream,co2_sink,0,SE,Diesel,Fossil_Diesel
+FossilFuelsUpstream,MIDAT_Diesel_Fossil_Upstream,co2_sink,0,MIDAT,Diesel,Fossil_Diesel
+FossilFuelsUpstream,NE_Diesel_Fossil_Upstream,co2_sink,0,NE,Diesel,Fossil_Diesel

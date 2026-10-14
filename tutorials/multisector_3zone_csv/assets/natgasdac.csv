@@ -1,0 +1,4 @@
+Type,id,fuel_consumption,fixed_om_cost,transforms_timedata,co2_constraints--RampingLimitConstraint,capture_rate,electricity_production,ramp_down_fraction,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,ramp_up_fraction,location,availability--timeseries--path,availability--timeseries--header
+NaturalGasDAC,SE_Solvent_DAC,3.047059187,430000,NaturalGas,true,0.179237753,0.125,1,co2_sink,0.001810482,65.42,973000,1,SE,system/availability.csv,SE_Solvent_DAC
+NaturalGasDAC,MIDAT_Solvent_DAC,3.047059187,430000,NaturalGas,true,0.179237753,0.125,1,co2_sink,0.001810482,65.42,973000,1,MIDAT,system/availability.csv,MIDAT_Solvent_DAC
+NaturalGasDAC,NE_Solvent_DAC,3.047059187,430000,NaturalGas,true,0.179237753,0.125,1,co2_sink,0.001810482,65.42,973000,1,NE,system/availability.csv,NE_Solvent_DAC

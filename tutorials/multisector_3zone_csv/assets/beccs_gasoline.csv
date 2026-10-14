@@ -1,0 +1,7 @@
+Type,id,gasoline_commodity,gasoline_production,fixed_om_cost,capture_rate,electricity_consumption,co2_sink,emission_rate,variable_om_cost,annualized_investment_cost,min_flow_fraction,co2_content,biomass_constraints--MinFlowConstraint,location,biomass_commodity,availability--timeseries--path,availability--timeseries--header
+BECCSGasoline,SE_Bio_Gasoline_Herb,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,SE,Biomass_Herb,system/availability.csv,SE_Bio_Gasoline_Herb
+BECCSGasoline,MIDAT_Bio_Gasoline_Herb,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,MIDAT,Biomass_Herb,system/availability.csv,MIDAT_Bio_Gasoline_Herb
+BECCSGasoline,NE_Bio_Gasoline_Herb,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,NE,Biomass_Herb,system/availability.csv,NE_Bio_Gasoline_Herb
+BECCSGasoline,SE_Bio_Gasoline_Wood,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,SE,Biomass_Wood,system/availability.csv,SE_Bio_Gasoline_Wood
+BECCSGasoline,MIDAT_Bio_Gasoline_Wood,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,MIDAT,Biomass_Wood,system/availability.csv,MIDAT_Bio_Gasoline_Wood
+BECCSGasoline,NE_Bio_Gasoline_Wood,Gasoline,2.02155,283503,0,0,co2_sink,1.22933,22.04,356054,0.85,1.717,true,NE,Biomass_Wood,system/availability.csv,NE_Bio_Gasoline_Wood

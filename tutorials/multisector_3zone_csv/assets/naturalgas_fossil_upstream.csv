@@ -1,0 +1,4 @@
+Type,id,co2_sink,emission_rate,timedata,fuel_commodity,fossil_fuel_commodity,location
+FossilFuelsUpstream,SE_NG_Fossil_Upstream,co2_sink,0,NaturalGas,NaturalGas,Fossil_NaturalGas,SE
+FossilFuelsUpstream,MIDAT_NG_Fossil_Upstream,co2_sink,0,NaturalGas,NaturalGas,Fossil_NaturalGas,MIDAT
+FossilFuelsUpstream,NE_NG_Fossil_Upstream,co2_sink,0,NaturalGas,NaturalGas,Fossil_NaturalGas,NE
