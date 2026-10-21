@@ -4,8 +4,8 @@ This is a 3-zone, multi-sector example based on the Eastern US grid and energy s
 
 ## Benchmark results
 
-Objective value: 4.672553751e+11
-MacroEnergy version: 0.1.0
+Objective value: 4.6725537514481165e11
+MacroEnergy version: 0.3.0
 Solution algorithm: Monolithic
 Solver: Gurobi
 Solver version: 13.0.0
