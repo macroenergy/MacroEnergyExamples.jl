@@ -1,2 +1,5 @@
 name = "MacroEnergyExamples"
-version = "0.3.0"
+version = "0.4.0"
+
+[deps]
+MacroEnergy = "260b7737-bf0e-4e84-9335-3af14438b1f5"
